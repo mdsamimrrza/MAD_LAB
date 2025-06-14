@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2EBF2"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:hint="Phone Number"
+            android:gravity="center"
+            android:inputType="phone"
+            android:backgroundTint="#00ACC1"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="X"
+            android:backgroundTint="#00ACC1" />
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:padding="8dp"
+        android:layout_gravity="center">
+
+        <Button android:id="@+id/b1" android:text="1" android:layout_width="100dp" android:layout_height="60dp" android:layout_margin="4dp" android:backgroundTint="#00BCD4" android:textSize="18sp"/>
+        <Button android:id="@+id/b2" android:text="2" android:layout_width="100dp" android:layout_height="60dp" android:layout_margin="4dp" android:backgroundTint="#00BCD4" android:textSize="18sp"/>
+        <Button android:id="@+id/b3" android:text="3" android:layout_width="100dp" android:layout_height="60dp" android:layout_margin="4dp" android:backgroundTint="#00BCD4" android:textSize="18sp"/>
+        <Button android:id="@+id/b4" android:text="4" android:layout_width="100dp" android:layout_height="60dp" android:layout_margin="4dp" android:backgroundTint="#00BCD4" android:textSize="18sp"/>
+        <Button android:id="@+id/b5" android:text="5" android:layout_width="100dp" android:layout_height="60dp" android:layout_margin="4dp" android:backgroundTint="#00BCD4" android:textSize="18sp"/>
+        <Button android:id="@+id/b6" android:text="6" android:layout_width="100dp" android:layout_height="60dp" android:layout_margin="4dp" android:backgroundTint="#00BCD4" android:textSize="18sp"/>
+        <Button android:id="@+id/b7" android:text="7" android:layout_width="100dp" android:layout_height="60dp" android:layout_margin="4dp" android:backgroundTint="#00BCD4" android:textSize="18sp"/>
+        <Button android:id="@+id/b8" android:text="8" android:layout_width="100dp" android:layout_height="60dp" android:layout_margin="4dp" android:backgroundTint="#00BCD4" android:textSize="18sp"/>
+        <Button android:id="@+id/b9" android:text="9" android:layout_width="100dp" android:layout_height="60dp" android:layout_margin="4dp" android:backgroundTint="#00BCD4" android:textSize="18sp"/>
+        <Button android:id="@+id/b10" android:text="*" android:layout_width="100dp" android:layout_height="60dp" android:layout_margin="4dp" android:backgroundTint="#00BCD4" android:textSize="18sp"/>
+        <Button android:id="@+id/b0" android:text="0" android:layout_width="100dp" android:layout_height="60dp" android:layout_margin="4dp" android:backgroundTint="#00BCD4" android:textSize="18sp"/>
+        <Button android:id="@+id/b11" android:text="#" android:layout_width="100dp" android:layout_height="60dp" android:layout_margin="4dp" android:backgroundTint="#00BCD4" android:textSize="18sp"/>
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="16dp">
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Call"
+            android:backgroundTint="#0097A7" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Save"
+            android:backgroundTint="#0097A7" />
+    </LinearLayout>
+
+</LinearLayout>

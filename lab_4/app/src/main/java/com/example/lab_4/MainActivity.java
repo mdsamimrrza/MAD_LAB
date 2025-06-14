@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
     EditText usernameEditText, passwordEditText;
     Button actionButton;
     TextView statusMessage;
-
     String savedUsername, savedPassword;
     int loginAttempts = 0;
     boolean isSignUp = true;

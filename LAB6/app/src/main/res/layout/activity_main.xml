@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF59D">
+
+    <TextView
+        android:id="@+id/xmlData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:text="XML Data"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/jsonData"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/jsonData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:text="JSON Data"
+        app:layout_constraintTop_toBottomOf="@id/xmlData"
+        app:layout_constraintBottom_toTopOf="@+id/btnParserXML"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnParserXML"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Parse XML"
+        android:backgroundTint="#D84315"
+        app:layout_constraintTop_toBottomOf="@id/jsonData"
+        app:layout_constraintEnd_toStartOf="@+id/btnParserJSON"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1" />
+
+    <Button
+        android:id="@+id/btnParserJSON"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Parse JSON"
+        android:backgroundTint="#D84315"
+        app:layout_constraintTop_toBottomOf="@id/jsonData"
+        app:layout_constraintStart_toEndOf="@id/btnParserXML"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

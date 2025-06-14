@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83177f2c-f7b9-4ad2-ac64-685531d20194" name="Changes" comment="" />
+    <list default="true" id="95232981-6d04-4943-95f3-ccd53de0ea9f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/MAD.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_1/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/lab_1/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_4/app/src/main/java/com/example/lab_4/SuccessActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_4/app/src/main/java/com/example/lab_4/SuccessActivity.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +21,18 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
+  "associatedIndex": 7
 }]]></component>
-  <component name="ProjectId" id="2wR3oyIzyIpLOUNmwgSu0VGvW5j" />
+  <component name="ProjectId" id="2ySb7S3gWbpo4QBSFtMIbZdd87W" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,21 +41,23 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/samim_40uxmfb/Documents/sem 6/MAD/lab_1"
+    "last_opened_file_path": "C:/Users/samim_40uxmfb/Documents/sem 6/MAD/LAB7"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="83177f2c-f7b9-4ad2-ac64-685531d20194" name="Changes" comment="" />
-      <created>1745990740774</created>
+      <changelist id="95232981-6d04-4943-95f3-ccd53de0ea9f" name="Changes" comment="" />
+      <created>1749830753372</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1745990740774</updated>
+      <updated>1749830753372</updated>
     </task>
     <servers />
   </component>

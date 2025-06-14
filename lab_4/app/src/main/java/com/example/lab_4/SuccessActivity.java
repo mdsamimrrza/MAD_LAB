@@ -15,7 +15,6 @@ public class SuccessActivity extends AppCompatActivity {
 
         successMessage = findViewById(R.id.success_message);
 
-        String username = getIntent().getExtras().getString("username", "User");
-        successMessage.setText("Login Successful!\nWelcome, " + username);
+        successMessage.setText("Login Successful!\nWelcome, ");
     }
 }
